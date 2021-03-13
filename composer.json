@@ -1,0 +1,19 @@
+{
+  "name": "turch/logger",
+  "description": "Personal logger based on monolog package",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Alex Turch",
+      "email": "alexturch97@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "logger\\": "../src/"
+    }
+  },
+  "require": {
+    "monolog/monolog": "^2.2"
+  }
+}
